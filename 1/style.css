@@ -1,0 +1,242 @@
+*{padding:0;margin:0;}
+
+.flex1 {
+	display: flex;
+	flex-direction: row;
+	height: 82px;
+	flex-wrap: nowrap;
+	background-color: #CCDDC2;
+		justify-content: space-between;
+	align-items: center;
+}
+
+.logo2{
+	color: white;
+	font-size: 64px;
+	font-family: Futura PT;
+	font-weight: 300;
+	padding-left: 100px;
+}
+
+.nav_thing{
+	display: flex;
+	flex-direction: row;
+}
+
+.nav_element{
+	background: #A3B19B;
+	border-radius: 50%;
+	height: 47px;
+	width: 47px;
+	margin-right: 10px;
+}
+
+.nav_element:hover{
+	cursor: pointer;
+	transform: scale(1.04);
+}
+
+.main{
+	background: url("../Lilt + Flex/img/img95831358-0mq4-400h.png") no-repeat center top / cover;
+	background-blend-mode: multiply;
+	background-color: #AB7BCA;
+}
+
+.flex2 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+		justify-content: center;
+	align-items: center;
+	height: 368px;
+}
+
+.logo3{
+	color: white;
+	font-size: 64px;
+	font-family: Futura PT;
+	font-weight: 300;
+	line-height: 1;
+		text-align: center;
+	padding-bottom: 41px;
+}
+
+
+button {
+	margin: 0;
+	text-align: center;
+	background: transparent;
+	color: white;
+	width: 333px;
+	height: 72px;
+	font-size: 32px;
+	border: 2px solid white;
+	border-radius: 30px;
+	overflow: hidden;
+	font-family: "Century Gothic";
+	font-weight: 400;
+}
+
+button:hover {
+	cursor: pointer;
+	border: 4px solid white;
+}
+
+button:active{
+	cursor: pointer;
+	border: 4px solid white;
+	transform: scale(1.04);
+}
+
+.button2{
+	background: #A3B19B;
+	border-radius: 50%;
+	height: 47px;
+	width: 47px;
+	margin-right: 10px;
+	border: none;
+}
+
+.about{
+	background-color: #E5D8EE;
+	height: 873px;
+}
+
+.flex3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+		padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	gap: 15px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bok1 {
+	width: 256px;
+	height: 807px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.hi{
+	background-color: #D6B9E9;
+	width: 1200px;
+	height: 807px;
+	display: flex;
+	flex-direction: column;
+}
+
+.text{
+	padding-left: 30px;
+	padding-right: 30px;
+	color: white;
+	font-family: Century Gothic;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+
+.p1{
+	text-align: center;
+	color: white;
+	font-family: Century Gothic;
+	font-size: 32px;
+	padding-top: 36px;
+	padding-bottom: 50px;
+}
+
+.tovar{
+	background-color: #D6B9E9;
+	height: 1215px;
+}
+
+.flex4{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.each_tovar{
+	width: 1271px;
+	height: 389px;
+}
+
+.text_tovar{
+	width: 883px;
+	height: 247px;
+}
+.p11{
+	color: white;
+	font-family: Century Gothic;
+	font-size: 32px;
+
+}
+
+.p22{
+	flex: 0 0 auto;
+	color: white;
+	font-family: Century Gothic;
+	font-size: 20px;
+}
+
+.tovar_img{
+	transform: scale(.5);
+}
+
+.flex_tovar{
+	display: flex;
+	flex-direction: row;	
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	padding-top: 15px;
+}
+
+.tovar_text{
+	display: flex;
+	flex-direction: column;
+	width: 883px;
+	height: 222px;
+}
+
+.combo_img{
+	width: 372px;
+	height: 389px;
+	flex: 0 0 auto;
+	
+}
+
+.footer{
+	background-color: #CCDDC2;
+}
+
+.flex5{
+	height: 76px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	gap: 70px;
+}
+
+
+.number{
+	color: white;
+	font-family: Century Gothic;
+	font-size: 20px;
+
+}
+
+.mail{
+	color: white;
+	font-family: Century Gothic;
+	font-size: 20px;
+}
